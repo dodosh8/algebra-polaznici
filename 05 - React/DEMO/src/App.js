@@ -9,6 +9,7 @@ import './App.css';
 // IMPORTANT - Ovo morate znati
 // Više importa (redaka) zamijenili smo sa samo jednim importom
 import { Student, Program, Grades, Person, Conditional } from './Components';
+import Sintaksa from './Components/Sintaksa';
 
 // IMPORTANT - Ovo morate znati
 // Named export
@@ -20,7 +21,8 @@ import * as all from './Helpers/Utility';
 function App() {
   return (
     <div>
-      <Conditional/>
+      <Sintaksa />
+      {/* <Conditional/> */}
       {/* <Student />
       <Program />
       <Grades />
