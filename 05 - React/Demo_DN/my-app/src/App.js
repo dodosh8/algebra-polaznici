@@ -1,9 +1,9 @@
-import Hooks from "./Components/Hooks";
+import Message from "./Components/Message";
 
 function App() {
   return (
     <div>
-      <Hooks />
+      <Message />
 
     </div>
   );
