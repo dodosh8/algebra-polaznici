@@ -1,9 +1,9 @@
-import Parent from "./Components/Simpsons";
+import Hooks from "./Components/Hooks";
 
 function App() {
   return (
     <div>
-      <Parent />
+      <Hooks />
 
     </div>
   );
