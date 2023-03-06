@@ -1,9 +1,9 @@
-import Message from "./Components/Message";
+import Lifecycle from "./Components/Lifecycle";
 
 function App() {
   return (
     <div>
-      <Message />
+      <Lifecycle />
 
     </div>
   );
